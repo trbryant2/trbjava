@@ -20,7 +20,7 @@ public class Example {
     public Response example() {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
-        list.add("Congratulations Microclimate User, your Java application built with IBM Microclimate is up and running.");
+        list.add("Congratulations Microclimate User, your Java application built with IBM Microclimate is up and running. Use the <hosname:port/v1/example URL to test");
         return Response.ok(list.toString()).build();
     }
 
